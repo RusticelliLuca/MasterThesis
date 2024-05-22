@@ -51,9 +51,10 @@ for n in range(1,32):
     
     """ SHOW OUTPUT DATA IN A SUMMARIZED WAY"""
     data = price_list, rmse_list, price_list_robust, rmse_list_robust
-    data_options.append(pd.DataFrame(data=data, index=['Swing Price','RMSE','Robust Swing Price','Robust RMSE'], columns=list_strikes))
-
-
+    data_options.append(pd.DataFrame(data=data, 
+                                     index=['Swing Price','RMSE','Robust Swing Price','Robust RMSE'], 
+                                     columns=list_strikes
+                                     ))
 
 """ CREATION OF 3D PLOTS"""
 
