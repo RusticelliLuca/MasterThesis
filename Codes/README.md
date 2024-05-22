@@ -2,7 +2,7 @@
 The files in this folder contain the final part of my master thesis. 
 The order to read them is the following:
 
-  1. copula_function : class taken from the following repo in order to simulate copula random numbers   
+  1. copula_function : class (slightly modified) taken from the following repo in order to simulate copula random numbers   
      https://github.com/rkawsar/ambhas/blob/master/
   2. mc_introduction : function to transform and pre-process data for the Monte Carlo simulation
   3. mc_simulation : Monte Carlo simulation
