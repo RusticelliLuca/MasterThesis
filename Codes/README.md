@@ -11,3 +11,5 @@ The order to read them is the following:
   6. so_main : initialization and execution of the previous module
   7. so_sensitivity_ex : example of a sensitivity done on the previous algorithm, in this case the swing contract price is 
      estimated for a different set of possible options to be exercized along the contract period
+  8. so_scenario_analyisis : re-work and re-performance of the MC simulation and subsequent swing contract pricing for 
+     different scenarios of the European Cabron Emission Allowances prices.
